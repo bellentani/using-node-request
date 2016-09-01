@@ -23,10 +23,10 @@ app.get('/acerto', function(req, res) {
     //verificar se o gravatar existe - se ele não existe vai retornar 404 devido ao parametro passado ao api
     if (!error && response.statusCode == 200) {
       console.log('status é ok, achou');
-      res.send('Status é ok, achou. Impresso na tela');
+      res.send('<h1>Status é ok, achou</h1> <p>Impresso na tela '+response.statusCode+'</p>');
     } else if (!error && response.statusCode == 404) {
       console.log('deu 404');
-      res.send('Não achou nada. Impresso na tela');
+      res.send('<h1>Não achou nada. :(</h1> <p>Impresso na tela '+response.statusCode+'</p>');
     }
   });
 });
@@ -39,10 +39,10 @@ app.get('/erro', function(req, res) {
     //verificar se o gravatar existe - se ele não existe vai retornar 404 devido ao parametro passado ao api
     if (!error && response.statusCode == 200) {
       console.log('status é ok, achou');
-      res.send('Status é ok, achou. Impresso na tela');
+      res.send('<h1>Status é ok, achou</h1> <p>Impresso na tela '+response.statusCode+'</p>');
     } else if (!error && response.statusCode == 404) {
       console.log('deu 404');
-      res.send('Não achou nada. Impresso na tela');
+      res.send('<h1>Não achou nada. :(</h1> <p>Impresso na tela '+response.statusCode+'</p>');
     }
   });
 });
