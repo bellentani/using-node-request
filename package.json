@@ -1,0 +1,30 @@
+{
+  "name": "using-node-request",
+  "version": "0.1",
+  "description": "Snippet de exemplo de código para tutorial.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellentani/using-node-request.git"
+  },
+  "keywords": [
+    "request",
+    "node",
+    "snipet"
+  ],
+  "author": "Poe Bellentani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellentani/using-node-request/issues"
+  },
+  "homepage": "https://github.com/bellentani/using-node-request#readme",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  }
+}

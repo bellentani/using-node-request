@@ -1,0 +1,5 @@
+mockups/
+.sass-cache/
+node_modules/
+src/components
+**/_notes
